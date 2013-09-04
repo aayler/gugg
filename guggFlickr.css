@@ -61,6 +61,17 @@ ul.imageset li {
 }
 ul.imageset img {
 	width: 100%;
+	position: relative;
+}
+.imageset a {
+    	filter:alpha(opacity=75);
+    	-moz-opacity: 0.75; 
+    	opacity: 0.75;
+}
+.imageset a:hover {
+    	filter:alpha(opacity=100);
+    	-moz-opacity: 1; 
+    	opacity: 1;
 }
 .caption {
 	font-style: italic;
