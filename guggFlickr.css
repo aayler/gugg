@@ -1,0 +1,71 @@
+div#banner {
+	width:907px;
+	height: 98px;
+	background-image: url('guggenheim-sprite2012.jpg');
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	top:44px;
+	margin: 0 auto;
+}
+div#nav {
+	width: 907px;
+	margin: 0 auto;
+}
+div#gallery {
+	width: 907px;
+	height: auto;
+	clear: both;
+	margin: 0 auto;
+	padding: 10px;
+}
+div#gallery > div {
+	width: 907px;
+	margin: 0 0 0 10px;
+}
+ul li {
+	list-style-type: none; 
+	display: inline; 
+	float:left;
+	padding: 10px;
+}
+ul#select {
+	padding: 0;
+}
+ul#select li a {
+	font-family: "Gill Sans";
+	font-size: 2em;
+	color: black;
+	text-decoration: none;
+}
+ul#select li a:hover {
+	color: grey;
+}
+ul#select li.active a {
+	color: #bc0407;
+}
+ul.imageset {
+	padding: 0;
+	-moz-column-count: 4;
+    -moz-column-gap: 0px;
+    -webkit-column-count: 4;
+    -webkit-column-gap: 0px;
+    column-count: 4;
+    column-gap: 0px;
+    width: 907px;
+}
+ul.imageset li {
+	border: solid gray 1px;
+	margin: 0 10px 10px 0;
+	overflow: auto;
+	max-height: 400px;
+}
+ul.imageset img {
+	width: 100%;
+}
+.caption {
+	font-style: italic;
+	font-weight: bold;
+}
+.postdate {
+	font-size: .8em;
+}
