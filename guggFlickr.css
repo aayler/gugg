@@ -46,12 +46,12 @@ ul#select li.active a {
 ul.imageset {
 	padding: 0;
 	-moz-column-count: 4;
-    -moz-column-gap: 0px;
-    -webkit-column-count: 4;
-    -webkit-column-gap: 0px;
-    column-count: 4;
-    column-gap: 0px;
-    width: 907px;
+    	-moz-column-gap: 0px;
+    	-webkit-column-count: 4;
+    	-webkit-column-gap: 0px;
+    	column-count: 4;
+    	column-gap: 0px;
+    	width: 907px;
 }
 ul.imageset li {
 	border: solid gray 1px;
