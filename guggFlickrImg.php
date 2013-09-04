@@ -19,6 +19,7 @@ class GuggFlickrImg {
 	}
 	
 	public function showImage($tagterm) {
+	/* method to prepare Flickr data for html output */
 		$tagclass = implode(" ", $this->tags);
 		$imgobj = '<li class="'.$tagclass.'">';
 		foreach($this->tags as $key=>$tag) {
