@@ -9,7 +9,7 @@ class GuggFlickrImg {
 	/* @var string, @var array */
 	public $title, $imglink, $media, $imgdate, $tags = array();
 	
-	/* initialize GuggFlickrImg with selected fields from Twitter API */
+	/* initialize GuggFlickrImg with selected fields from Flickr photostream through their API */
 	public function __construct($input = 'false') {
 		if(is_array($input)) {
 			foreach($input as $key=>$value) {
