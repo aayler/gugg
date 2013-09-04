@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<link style="text/css" media="screen" rel="stylesheet" href="guggFlickr.css" />
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script> //link to Google CDN for jQuery library
 </head>
 <body>
 	<?php
