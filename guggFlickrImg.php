@@ -6,7 +6,7 @@
 * @version 4-September-2013
 */
 class GuggFlickrImg {
-	/* @var string, @var array */
+	/* @var string title, link to Flickr image, image source, published date, @var array tags list */
 	public $title, $imglink, $media, $imgdate, $tags = array();
 	
 	/* initialize GuggFlickrImg with selected fields from Flickr photostream through their API */
