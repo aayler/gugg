@@ -7,7 +7,7 @@ function decodeJson($url,$tags) {
 	$clean_json = strip_tags($flickr_json); //clean for valid JSON
 	$clean_json = stripcslashes($clean_json); 
 	$gugg_flickr = json_decode($clean_json);
-	return $gugg_flickr;
+	return $gugg_flickr; //ready to parse
 }
 
 function initGallery($newarray) {
@@ -31,7 +31,7 @@ function createGallery($gallery,$searchtag) {
 	echo $ulist;
 }
 
-//JSON feed request via twitter API using tag terms
+//JSON feed request via Flickr feeds API using tag terms
 $turrellFlickr = decodeJson('http://ycpi.api.flickr.com/services/feeds/photos_public.gne?id=67725727@N00&format=json&nojsoncallback=1','jamesturrell');	
 $eduFlickr = decodeJson('http://ycpi.api.flickr.com/services/feeds/photos_public.gne?id=67725727@N00&format=json&nojsoncallback=1','education'); 
 
