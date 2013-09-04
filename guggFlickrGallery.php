@@ -9,7 +9,7 @@
 		require_once('guggFlickrImg.php');
 		include('guggFlickr.php');
 	?>
-	<div id="banner"></div>
+	<div id="banner"></div> //borrowed Guggenheim image ;)
 	<div id="nav">
 		<ul id="select">
 			<li class="active"><a href="#all">All</a></li>
