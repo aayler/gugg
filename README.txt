@@ -6,4 +6,4 @@ Images from the Guggenheim Flickr Photostream are retrieved through the Flickr A
 
 Please visit http://soseditions.com/gugg/guggFlickrGallery.php for a demonstration.
 
-Thank you.
+Thank you very much.
